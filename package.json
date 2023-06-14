@@ -1,0 +1,22 @@
+{
+  "name": "ask-a-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ -recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahkatherine/ask-a-local.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leahkatherine/ask-a-local/issues"
+  },
+  "homepage": "https://github.com/leahkatherine/ask-a-local#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
