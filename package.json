@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server",
     "sass": "node-sass -w scss/ -o css/ -recursive"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/leahkatherine/ask-a-local#readme",
   "dependencies": {
     "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
