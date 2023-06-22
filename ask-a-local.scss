@@ -1,0 +1,19 @@
+$header-font: "Lobster", cursive;
+
+
+.navbar {
+    background-color: blue; 
+    
+}
+
+.jumbotron {
+    background-image:url('img/pano-skidwaway.JPEG');
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:1px solid #ff6a00
+  }
+  .jumbotron .container {
+    position:relative;
+    top:50px;
+  }
