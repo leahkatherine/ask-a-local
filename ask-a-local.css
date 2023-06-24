@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image: url("img/pano-skidwaway.JPEG");
+  height: 300px;
+  min-height: 100vh;
+  display: felx;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+
+
+/*# sourceMappingURL=ask-a-local.css.map */
