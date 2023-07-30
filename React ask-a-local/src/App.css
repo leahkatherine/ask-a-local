@@ -1,41 +1,73 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding:0;
+  font-family: 'Alegreya', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header-container {
+  background-color:#77DD77;
+  background-size: cover;
+  background-position: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quizButton{
+  background-color: #1aae8e;
 }
+
+
+.AskLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:1000px;
+  height:1000px;
+  
+}
+
 .NavBar {
-  background-color: #77DD77;
+  color: #C3B1E1;
+  font-family: 'Alegreya', serif;
 }
 
 .App-header {
   background-color:  #77DD77;
+  font-family: 'Alegreya', serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
+  margin-right: 4rem;
+  max-width: 8rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark {
+  background-color: #1aae8e;
+  background-image: linear-gradient(to right, #3568f5, #30bbc5, #9f49aa);
+  margin-bottom: 2rem;
+  min-height: 8rem;
 }
+
+.navbar-brand {
+  max-width: 4rem;
+  margin-right: 2rem;
+}
+
+.site-footer {
+  background-image: linear-gradient( white);
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+
+

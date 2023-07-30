@@ -1,6 +1,8 @@
+import   ContactInfo   from "../components/ContactInfo";
+import React from "react";
 
 const ContactPage = () => {
-    return <div>ContactPage</div>;
+  return <ContactInfo/>;
 };
 
 export default ContactPage;
