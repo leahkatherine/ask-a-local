@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Navigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { setCurrentUser, selectCurrentUser } from './userSlice.js';
 import {
@@ -16,13 +17,16 @@ import defaultAvatar from '../../app/assets/img/duckyLoggedIn.png';
 
 const UserLoginForm = () => {
     const [ loginModalOpen, setLoginModalOpen ] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
 
     const currentUser = useSelector(selectCurrentUser);
 
     const dispatch = useDispatch();
-
+/* you just added is logged in, and you just added set is logged in true from the state*/
     const handleLogin = (values) => {
         console.log(handleLogin);
+        setIsLoggedIn(true);
         const currentUser = {
             id: Date.now(),
             avatar: defaultAvatar,
@@ -32,6 +36,9 @@ const UserLoginForm = () => {
         dispatch(setCurrentUser(currentUser));
         setLoginModalOpen(false);
     }
+    if (isLoggedIn) {
+        return <Navigate to="/dashboard" />;
+      }
     
     return (
         <>

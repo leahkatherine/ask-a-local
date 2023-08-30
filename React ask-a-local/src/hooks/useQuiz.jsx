@@ -94,7 +94,7 @@ export const useQuiz = (quizUrl) => {
           {
             question:"Whats an average Saturday night for you? Pick what sounds the most like you.",
             type: "multiple",
-            choice: [
+            choices: [
                 {
                   answer:"I like sober fun",
                 },
@@ -173,6 +173,7 @@ export const useQuiz = (quizUrl) => {
 
   const handleSubmit = () => {
     const answers = getSubmittedAnswers();
+    
 
     // return more verbose array of objects that contains the answer, index, and question
 

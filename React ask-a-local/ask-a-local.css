@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 h1,
@@ -7,6 +8,7 @@ h2,
 h3,
 .card-body > .card-title {
     font-family: 'Lobster', cursive;
+    background-color: rgb(255, 255, 255);
 }
 
 .card-title {
@@ -15,12 +17,12 @@ h3,
 }
 
 h2 {
-    color: #3046c5;
+    color: #ffffff;
 }
 
 .card-img-overlay .card-title {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(201, 187, 220);
+    background-color: rgb(255, 255, 255);
 }
 
 .row-content {
